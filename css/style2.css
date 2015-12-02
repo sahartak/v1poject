@@ -1,0 +1,25 @@
+span.icon {
+        display: inline-block;
+        width: 14px;
+        height: 12px;
+        background-image: url(../images/arrows.png);
+    }
+    span.icon.loss {
+        background-position: 0 0;
+    }
+    span.icon.win { 
+        background-position: 14px 0;
+    }
+
+.errors{
+    color:#900;
+}
+
+.col_50
+{
+    line-height:16px;
+}
+.positive{
+    color: #393;
+}
+

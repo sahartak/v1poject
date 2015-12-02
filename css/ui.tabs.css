@@ -1,0 +1,104 @@
+/* Caution! Ensure accessibility in print and other media types... */
+@media projection , screen {
+	/* Use class for showing/hiding tab content, so that visibility can be better controlled in different media types... */
+	.ui-tabs-hide {
+		display: none;
+	}
+}
+
+@media print {
+	.ui-tabs-nav {
+		display: none;
+	}
+}
+
+/* Skin */
+.ui-tabs-nav,.ui-tabs-panel {
+	font: bold 11px Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+}
+
+.ui-tabs-nav {
+	list-style: none;
+	margin: 0;
+	padding:0px;
+}
+
+.ui-tabs-nav:after {
+	/* clearing without presentational markup, IE gets extra treatment */
+	display: block;
+	clear: both;
+	content: " ";
+}
+
+.ui-tabs-nav li {
+	float: left;
+	margin: 0 0 0px 3px;
+	min-width: 50px; /* be nice to Opera */
+}
+
+.ui-tabs-nav li a:hover,.ui-tabs-selected,.ui-tabs-selected:hover {
+	cursor: pointer;
+	background-color: #fff;
+}
+
+.ui-tabs-nav a {
+	background: #E3E3E3 none repeat scroll 0 0;
+	border-color: #CCCCCC #CCCCCC -moz-use-text-color;
+	border-style: solid solid none;
+	border-width: 1px;
+	color: #444444;
+	display: block;
+	padding: 6px 9px 5px;
+	position: relative;
+	text-decoration: none;
+	top: 1px;
+	z-index: 2;
+}
+
+.ui-tabs-nav .ui-tabs-selected a {
+	background-color: #fff;
+	border-bottom:solid 1px #FFFFFF;
+}
+
+*>.ui-tabs-nav a span { /* hide from IE 6 */
+	width: auto;
+	height: auto;
+}
+
+.ui-tabs-nav .ui-tabs-selected a span {
+	padding-bottom: 1px;
+}
+
+.ui-tabs-nav .ui-tabs-selected a:link,.ui-tabs-nav .ui-tabs-selected a:visited,.ui-tabs-nav .ui-tabs-disabled a:link,.ui-tabs-nav .ui-tabs-disabled a:visited
+	{ /* @ Opera, use pseudo classes otherwise it confuses cursor... */
+	cursor: pointer;
+}
+
+.ui-tabs-nav a:hover,.ui-tabs-nav a:focus,.ui-tabs-nav a:active,.ui-tabs-nav .ui-tabs-deselectable a:hover,.ui-tabs-nav .ui-tabs-deselectable a:focus,.ui-tabs-nav .ui-tabs-deselectable a:active
+	{ /* @ Opera, we need to be explicit again here now... */
+	cursor: pointer;
+}
+
+.ui-tabs-disabled {
+	opacity: .4;
+	filter: alpha(opacity = 40);
+}
+
+.ui-tabs-panel {
+	border-top:solid 1px #000000;
+	border-bottom:solid 1px #000000;
+	padding: 5px;
+	background: #FFFFFF;
+	/* declare background color for container to avoid distorted fonts in IE while fading */
+}
+
+/* Additional IE specific bug fixes... */
+* html .ui-tabs-nav { /* auto clear, @ IE 6 & IE 7 Quirks Mode */
+	display: inline-block;
+}
+
+*:first-child+html .ui-tabs-nav {
+	/* @ IE 7 Standards Mode - do not group selectors, otherwise IE 6 will ignore complete rule (because of the unknown + combinator)... */
+	display: inline-block;
+}

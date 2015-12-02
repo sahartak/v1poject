@@ -1,0 +1,49 @@
+button,.box_head
+{
+    background-color: #1C5EA0;
+    background-image: linear-gradient(top, #1C5EA0, #064792);
+    border-color: #064792;
+}
+.dark_box
+{
+    background-color: #4c5766;
+    color: #fff;
+    text-shadow: 0 1px 0 #000;
+    background-image: linear-gradient(top, #4c5766, #313841);
+}
+.my_clear
+{
+    clear: both;
+}
+.box a.toggle.toggle_closed
+{
+    background: url("../adminica/images/interface/toggle.png") 2px -15px no-repeat;
+}
+.box a.toggle {
+    background: url("../adminica/images/interface/toggle.png") 2px 0px no-repeat;
+    display: block;
+    height: 17px;
+    width: 19px;
+    border: 1px solid rgba(9, 9, 9, 0.35);
+    float: right;
+    margin: 8px 7px 0 0;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.ui-autocomplete {
+    height: 300px;
+    overflow-y: auto;
+}

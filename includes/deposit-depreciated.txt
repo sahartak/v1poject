@@ -1,0 +1,18 @@
+<h2>Deposit Instructions</h3>
+<hr />
+<h3>Regional funding instructions:</h3>
+<p>   </p>
+<div class="homeLeft left">
+<fieldset class="mainFormHolder right">
+	<legend>Funding Details</legend>
+<p>International Client Accounts:
+<blockquote>
+  <p> For international clients wishing to fund an account, please contact your advisor for the clearing bank details most appropriate to your region. </p> 
+</blockquote>
+</fieldset>
+</div>
+<p><br />
+  Please state your Reference Number only clearly on your transfer.  No other information is allowed.<br />
+  <br />
+  For proper credit to your account, fax your funding receipt.<br />
+</p>

@@ -1,0 +1,448 @@
+/* BACK-END STYLES */
+html,body,div,span,a,em,img,small,strong,b,u,ul,legend,table {
+    list-style: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    color: #000000;
+    font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    height: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+.left {
+    float:left;
+}
+
+.wrapper {
+    width: auto;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+    color:#000000;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:#000000;
+}
+
+textarea {
+    width:100%;
+    max-width: 1200px;
+    height: 600px;
+    border: solid 1px #000000;
+}
+
+textarea.mceEditor {
+    width:100%;
+    max-width: 1200px;
+    height: 400px;
+    border: solid 1px #000000;
+}
+
+textarea.mailTArea {
+    width:100%;
+    max-width: 1200px;
+    height: 300px;
+    border: solid 1px #000000;
+}
+
+.minHeight200 {
+    min-height: 200px;
+}
+
+.noramlRight {
+    text-align: right;
+    font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+    color:#000000;
+}
+
+.moreRight {
+    text-align: right;
+    font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+    color:#000000;
+    cursor: pointer;
+}
+
+.LoginContainer {
+    width:225px;
+    text-align:center;
+    margin: 100px auto;
+    border:solid 1px #000000;
+    color:#000000;
+}
+
+.LoginContainer .tinputs {
+    font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+    color:#000000;
+    margin:5px;
+    height: 13px;
+    width:125px;
+    border:dotted 1px #000000;
+}
+
+.LoginContainer .labels {
+    color:#000000;
+    font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+    text-align: right;
+    margin-top: 5px;
+    margin-left:5px;
+}
+
+.submitBtn {
+    font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+    border: solid 1px #000000;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    margin:5px;
+}
+
+.MainContainer {
+    text-align: left;
+    margin-top:5px;
+}
+
+.infoHolder {
+    margin:0px 0px 0px 10px;
+    font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.errorsHolder {
+    color:#FF0000;
+    font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.hintHolder {
+    font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+    border:solid 1px #000000;
+    background-color: #FFFFB4;
+    margin:0px 0px 5px 0px;
+    padding:5px;
+    width:99%;
+}
+
+.errorHolder {
+    font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+    border:solid 1px #000000;
+    background-color: #FF8181;
+    margin:0px 0px 5px 0px;
+    padding:5px;
+    width:99%;
+}
+
+.successHolder {
+    font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+    border:solid 1px #000000;
+    background-color: #DDFF9A;
+    margin:0px 0px 5px 0px;
+    padding:5px;
+    width:99%;
+}
+
+.simpleHolder {
+    font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+    border:solid 1px #000000;
+    margin:0px 0px 5px 0px;
+    padding:5px;
+    width:99%;
+}
+
+.mainHolder {
+    font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    margin:5px;
+    padding:5px;
+    width:97%;
+    max-width: 1600px;
+}
+
+.mainHolderUsers {
+    font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    margin:5px;
+    padding:5px;
+    width:97%;
+    max-width: 1600px;
+}
+
+.mainHolderSmall {
+    font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    margin:5px;
+    padding:5px;
+    width:100%;
+    max-width: 800px;
+}
+
+.mainHolderSmaller {
+    font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    margin:5px;
+    padding:5px;
+    width:100%;
+    max-width: 500px;
+}
+
+.mainHolderSmallest {
+    font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    margin:5px;
+    padding:5px;
+    width:100%;
+    max-width: 300px;
+}
+
+.mainFormHolder {
+    margin:5px;
+    width:350px;
+}
+.mainFormHolder.wide {
+    width: 100%;
+}
+
+.mainFormHolder legend {
+    font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+    padding:0px 5px 5px 5px;
+    color:#000000;
+}
+
+.mainFormHolder .text-input {
+    border:solid 1px #000000;
+    font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+    width:200px;
+}
+
+.mainFormHolder .widearea {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+}
+.mainFormHolder .tallarea {
+    min-height: 500px;
+}
+
+.mainFormHolder .text-input-big {
+    border:solid 1px #000000;
+    font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+    width:345px;
+}
+
+.mainFormHolder .text-input-small {
+    border:solid 1px #000000;
+    font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+    width:140px;
+}
+
+.mainFormHolder .text-input-smaller {
+    border:solid 1px #000000;
+    font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+    width:60px;
+}
+
+.mainFormHolder .text-input-smallest {
+    border:solid 1px #000000;
+    font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+    width:30px;
+}
+
+.mainFormHolder .text-area-big {
+    border:solid 1px #000000;
+    font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+    width:345px;
+    height: 40px;
+    overflow: auto;
+}
+
+.mainFormHolder .text-area {
+    border:solid 1px #000000;
+    font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+    width:200px;
+    height: 100px;
+    overflow: auto;
+}
+
+.mainFormHolder .text-area-small2rows {
+    border:solid 1px #000000;
+    font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+    width:200px;
+    height: 30px;
+    overflow: auto;
+}
+
+.mainFormHolder .select-medium {
+    border:solid 1px #000000;
+    font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+    width:100px;
+}
+
+.mainFormHolder .select-small {
+    border:solid 1px #000000;
+    font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+    width:65px;
+}
+
+.btnsHolder {
+    text-align: center;
+}
+
+div.error {
+    font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+    text-align:center;
+    border:solid 1px #000000;
+    background-color: #FF8181;
+    margin:5px;
+    padding:2px;
+}
+
+.formsLeft {
+    width:125px;
+    float:left;
+    text-align:right;
+    padding-right: 5px;
+}
+
+table.display {
+    border:solid 1px #DDDDDD;
+}
+
+.dataTables_length select {
+    width:50px;
+    font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.dataTables_filter input {
+    border:solid 1px #000000;
+    font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+    width:200px;
+}
+
+thead input, tfoot input, .search-select, .search-select-small {
+    border:solid 1px #000000;
+    font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+    background: transparent;
+}
+
+.TableTools {
+    margin-top:10px;
+}
+
+.TabsHolder {
+    display:none;
+}
+
+.search_init {
+    width: 80px;
+}
+
+.search-select {
+    width: 65px;
+}
+
+.search-select-small {
+    width: 45px;
+}
+
+.search_init-small {
+    width: 30px;
+}
+
+.search_init-medium {
+    width: 50px;
+}
+
+.td-center {
+    text-align: center;
+}
+
+/* OVERWRITE TO MAKE SUB-PANE FOR TABS SMALLER */
+.ui-tabs .ui-tabs-panel { padding: 2px 0px 0px 10px; display: block; border-width: 0; background: none; }
+
+#slider {
+    width: 160px;
+    height: 14px;
+    float: left;
+    margin-right:5px;
+    border:solid 1px #000000;
+}
+#slider a {
+    height: 18px;
+    width:5px;
+    cursor: pointer;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.trade-details {
+    border:solid 1px #000000;
+    font: bold 11px Verdana, Arial, Helvetica, sans-serif;
+    width:345px;
+    background-color: #FFCC33;
+    text-align: center;
+    color:#000000;
+}
+
+#transfersTable .ui-state-active {
+    font-weight: bold;
+}
+
+#transfersTable .Transfered, #tradesTable .Open {
+    background-color: #E6FFCD;
+}
+
+#transfersTable .Pending, #tradesTable .Pending {
+    background-color: #FFFFB4;
+}
+
+#transfersTable .Disabled, #tradesTable .Disabled {
+    background-color: #FFCFCF;
+}
+
+/*** edit stock details ***/
+.stockDetailsTable {
+    border: 1px solid #aaa;
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.stockDetailsTable td, .stockDetailsTable th {
+    border: 1px solid #aaa;
+    padding: 4px;
+    width: 50%;
+}
+.stockDetailsTable td {
+    font-weight: normal;
+}
+.stockDetailsTable input.edit {
+    width: 90%;
+}
+
+.Clear
+{
+	clear: both;
+	margin: 5px 0;
+}
+
+.variable_list{
+	list-style-type: none; 
+	width: 90%; 
+	margin: auto; 
+	line-height: 16px;	
+}
